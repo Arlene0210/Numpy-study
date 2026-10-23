@@ -1,7 +1,7 @@
 import numpy as np
 
 # 读 CSV，跳过表头（skip_header=1）
-data = np.genfromtxt('battery_demo.csv', delimiter=',', skip_header=1)
+data = np.genfromtxt(r'D:/mycode/battery-soc/battery_demo.csv', delimiter=',', skip_header=1)
 print('数据形状(行,列):', data.shape)   # 应该是 (100, 5)
 
 # 按列拆出来（列顺序：time, voltage, current, temp, soc）

@@ -1,7 +1,7 @@
 import numpy as np
 
 # 读假数据
-data = np.genfromtxt('battery_demo.csv', delimiter=',', skip_header=1)
+data = np.genfromtxt(r'D:/mycode/battery-soc/battery_demo.csv', delimiter=',', skip_header=1)
 
 # ===== 第 1 步：故意弄脏（真实数据里这些都会出现）=====
 dirty = data.copy()

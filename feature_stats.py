@@ -1,5 +1,5 @@
 import numpy as np
-data = np.genfromtxt('battery_demo.csv', delimiter=',', skip_header=1)
+data = np.genfromtxt(r'D:/mycode/battery-soc/battery_demo.csv', delimiter=',', skip_header=1)
 names = ['time', 'voltage', 'current', 'temp', 'soc']
 
 for i, name in enumerate(names):
